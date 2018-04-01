@@ -57,6 +57,8 @@ After we computed all the mid points and moved original points, call this functi
 
 2. The subdivision of the cube is not right, one vertex is in wrong position. I checked many times and still can not find the error. 
 
+3. Extrude functions has bugs that will lead to collapse, so it is not included! 
+
 ## Without highlights, how did I do the debugging? 
 
 Well the procedure is somewhat traditionally painful, I implemented a function in mainwindow.cpp. When you clicked any item(eg. vertex, edge, face), it will show some information. That's how I did the debugging. 
