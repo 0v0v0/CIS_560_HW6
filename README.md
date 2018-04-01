@@ -39,15 +39,15 @@ After that, you may click "Update" again to update the list(Since it changed!)
 
 Most of the functions are implemented under halfedge.cpp, which I apologyse to make it so big...
 
-### 1. addVertex(int), takes the ID of a half-edge, add a vertex in the middle of it. 
+#### 1. addVertex(int), takes the ID of a half-edge, add a vertex in the middle of it. 
 
 This function also returns the pointer to the new vertex.
 
-### 2. triangulate(int), take the ID of a face, triangluate it. 
+#### 2. triangulate(int), take the ID of a face, triangluate it. 
 
-### 3. subdivision(), takes in nothing, and subdivide the mesh. 
+#### 3. subdivision(), takes in nothing, and subdivide the mesh. 
 
-### 4. quadranglate(Face *, Vertex *, std::vector<int>), a function called by subdivision. 
+#### 4. quadranglate(Face *, Vertex *, std::vector<int>), a function called by subdivision. 
 
 After we computed all the mid points and moved original points, call this function to add faces and half-edges.
 
